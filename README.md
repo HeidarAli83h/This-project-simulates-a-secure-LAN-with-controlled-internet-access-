@@ -33,6 +33,14 @@ This project simulates a secure LAN with controlled internet access:
 
 ---
 
+## 🖼️ Photos
+
+<p align="center">
+  <img src="images/net.jpg" width="500" alt="Diagram" />
+</p>
+
+---
+
 ## 📍 IP Addressing Table
 
 | Device | Interface | IP Address     | Subnet | Role                  |
