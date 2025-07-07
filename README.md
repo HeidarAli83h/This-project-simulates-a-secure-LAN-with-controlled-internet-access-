@@ -71,7 +71,7 @@ This project simulates a secure LAN with controlled internet access:
 - Deny: everything else  
 - Applied outbound on `G0/1`
 
-📄 File: [`R1-config-ACL.txt`](R1-config-ACL.txt)
+📄 File: [`R1-config-ACL.txt`]
 
 ---
 
@@ -90,13 +90,13 @@ This project simulates a secure LAN with controlled internet access:
 - NAT outside: `G0/1`  
 - `ip nat inside source list 1 interface G0/1 overload`
 
-📄 File: [`R2-config-NAT.txt`](R2-config-NAT.txt)
+📄 File: [`R2-config-NAT.txt`]
 
 ---
 
 ## 🧪 Test Results
 
-📄 File: [`Test.md`](Test.md)
+📄 File: [`Test.md`]
 
 | Test                          | PC1 | PC2 | PC3 |
 |------------------------------|-----|-----|-----|
@@ -123,7 +123,7 @@ This project simulates a secure LAN with controlled internet access:
 - From each PC, run ping tests to:
   - **8.8.8.8** (for internet access)
   - Other PCs within `192.168.10.0/24` (for LAN)
-- Refer to [`Test.md`](Test.md) to validate results.
+- Refer to [`Test.md`]to validate results.
 
 ---
 
